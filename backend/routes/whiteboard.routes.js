@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post("/save", saveWhiteboard);
 
-router.get(":/roomId", getWhiteboard);
+router.get("/:roomId", getWhiteboard);
 
 export default router;
