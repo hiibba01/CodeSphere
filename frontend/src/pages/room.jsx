@@ -126,14 +126,14 @@ const Room = () => {
 
             <img
                 src={logo}
-                alt="SyncSpace Logo"
+                alt="CodeSphere Logo"
                 className="logo w-14 h-14 sm:w-16 sm:h-16 lg:w-18 lg:h-18 rounded-full object-cover border border-zinc-700 cursor-pointer"
             />
 
             <div>
 
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wide">
-                    SyncSpace
+                    CodeSphere
                 </h1>
 
                 <div className="mt-2 flex flex-col sm:flex-row sm:items-center gap-2">

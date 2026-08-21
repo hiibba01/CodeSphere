@@ -710,7 +710,7 @@ const Whiteboard = ({roomId}) => {
     const downloadCanvas =()=>{
         const canvas = canvasRef.current;
         const link = document.createElement("a");
-        link.download = "SyncSpace-Whiteboard.png";
+        link.download = "CodeSphere-Whiteboard.png";
         link.href = canvas.toDataURL("image/png");
         link.click();
     }

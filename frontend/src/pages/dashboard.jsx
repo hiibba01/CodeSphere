@@ -157,12 +157,12 @@ const Dashboard = () => {
 
                         <img
                             src={logo}
-                            alt="SyncSpace Logo"
+                            alt="CodeSphere Logo"
                             className="logo w-14 h-14 sm:w-16 sm:h-16 lg:w-18 lg:h-18 rounded-full object-cover border border-zinc-700 cursor-pointer"
                         />
 
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-                            SyncSpace
+                            CodeSphere
                         </h1>
 
                     </div>

@@ -49,7 +49,7 @@ const Register = () => {
             <div className="w-full max-w-md bg-[#181818] border border-zinc-800 rounded-2xl p-6 sm:p-8">
 
                 <h1 className="text-4xl text-white font-bold text-center">
-                    SyncSpace
+                    CodeSphere
                 </h1>
 
                 <p className="text-zinc-400 text-center mt-2">
