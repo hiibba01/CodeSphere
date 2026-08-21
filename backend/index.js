@@ -22,7 +22,7 @@ const server = createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "",
+        origin: "https://codespherefrontend-3ip2.onrender.com",
         methods: ["GET", "POST"]
     }
 });
@@ -30,7 +30,7 @@ const io = new Server(server, {
 
 app.use(
     cors({
-        origin: "",
+        origin: "https://codespherefrontend-3ip2.onrender.com",
         credentials: true,
     })
 );

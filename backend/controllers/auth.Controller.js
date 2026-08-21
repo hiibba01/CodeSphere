@@ -46,7 +46,7 @@ export const register = async (req, res) => {
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const profileImage = req.file
-            ? `https://syncspace-2-ad12.onrender.com/uploads/${req.file.filename}`
+            ? `https://codesphere-backend-jjhn.onrender.com/uploads/${req.file.filename}`
             : `https://api.dicebear.com/9.x/initials/svg?seed=${encodeURIComponent(name)}`;
 
         const user = await User.create({
